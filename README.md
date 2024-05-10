@@ -21,13 +21,30 @@ The Magic Square puzzle involves arranging numbers 1 through 9 in a 3x3 grid suc
 ### Solution Approach
 The Magic Square solver utilizes a **genetic algorithm** to find the optimal arrangement of numbers. It employs mutation, crossover, and selection techniques to evolve towards a solution.
 
-## Usage
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Ensure Python 3.x is installed on your system.
-4. Run the following commands to execute the solvers:
-   - `python main.py`
-5. Or you can download the file uplaod it on google drive, and run it on Google Collab.
+### Usage
+#### Running IPython Notebook on Conda
+
+To run an IPython Notebook (`.ipynb` file) on Conda, follow these steps:
+
+1. **Activate Conda Environment:** Open your terminal or command prompt and activate your Conda environment where you have installed Jupyter Notebook:
+
+    `conda activate (enviornment name)`
+
+   Replace `(environment name)` with the name of your Conda environment.
+
+3. **Install Jupyter Notebook (if not installed):** If you haven't installed Jupyter Notebook in your Conda environment, you can install it using the following command:
+
+   `conda install jupyter`
+   
+5. **Navigate to Notebook Directory:** Use the `cd` command to navigate to the directory where your `.ipynb` file is located.
+
+6. **Launch Jupyter Notebook:** Once you are in the directory containing your notebook file, run the following command to launch Jupyter Notebook:
+
+    `jupyter notebook`
+   
+8. **Access Notebook in Browser:** After running the above command, Jupyter Notebook will open in your default web browser. You should see a file browser interface where you can navigate to your `.ipynb` file. Click on the file to open and run it.
+
+9. **Run Notebook Cells:** Once the notebook is open, you can run each cell individually by selecting it and pressing `Shift + Enter`. Alternatively, you can run all cells by selecting `Cell` from the menu and choosing `Run All`.
 
 ## Happy Solving :)
    
